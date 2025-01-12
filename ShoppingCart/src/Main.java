@@ -13,6 +13,7 @@ public class Main {
         double total=price*quantity;
         System.out.print("You have bought "+quantity+" "+item);
         System.out.println(" and your total bill is $"+total);
+        scanner.close();
 
     }
 }
