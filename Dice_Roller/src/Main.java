@@ -27,42 +27,42 @@ public class Main {
         scanner.close();
 
     }static void dice(int roll){
-        String d1= """
+        String dice1= """
                  ---------------
                 |               |
                 |       ●       |
                 |               |   
                  ---------------
                 """;
-        String d2= """
+        String dice2= """
                  ---------------
                 |   ●           |
                 |               |
                 |            ●  |   
                  ---------------
                 """;
-        String d3= """
+        String dice3= """
                  ---------------
                 |   ●           |
                 |       ●       |
                 |           ●   |   
                  ---------------
                 """;
-        String d4= """
+        String dice4= """
                  ---------------
                 |   ●       ●   |
                 |               |
                 |   ●       ●   |   
                  ---------------
                 """;
-        String d5= """
+        String dice5= """
                  ---------------
                 |   ●       ●   |
                 |       ●       |
                 |   ●       ●   |   
                  ---------------
                 """;
-        String d6= """
+        String dice6= """
                  ---------------
                 |   ●       ●   |
                 |   ●       ●   |
