@@ -10,8 +10,8 @@ public class Main {
         int tim= scanner.nextInt();
         System.out.print("Enter the no of years: ");
         int noofyears= scanner.nextInt();
-        double f=principal * Math.pow( (1+(rate/noofyears)),(n*tim));
-        System.out.printf("Total Amount is: %.2f",f);
+        double total=principal * Math.pow( (1+(rate/noofyears)),(n*tim));
+        System.out.printf("Total Amount is: %.2f",total);
         scanner.close();
     }
 }
