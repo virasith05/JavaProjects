@@ -11,7 +11,7 @@ public class Main {
         "D.Who is the founder of Java programming language?"};
 
         String[][] answers={{"1.class", "2. interface", "3. main", "4. extends"},
-                {"A. 0", "B. null", "C. undefined", "D. Not assigned"},
+                {"1. 0", "2. null", "3. undefined", "4. Not assigned"},
                 {"A. int 1number;",  "B. float rate;", "C. boolean = true;" , "D. String 123Name;"},
                 {"A. Bjarne Stroustrup" , "B. Guido van Rossum" , "C. James Gosling" , "D. Dennis Ritchie"}};
 
