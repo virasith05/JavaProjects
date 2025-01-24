@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+
+        System.out.println("Hey,Hello Welcome to basic quiz game in Java");
+        System.out.println("########################################################");
+        String[] questions={"1.Which of these is not a Java keyword?",
+        "2.What is the default value of an int variable in Java?",
+        "3.Which of the following is the correct way to declare a variable in Java?",
+        "4.Who is the founder of Java programming language?"};
+
+        String[][] answers={{"A.class", "B. interface", "C. main", "D. extends"},
+                {"A. 0", "B. null", "C. undefined", "D. Not assigned"},
+                {"A. int 1number;",  "B. float rate;", "C. boolean = true;" , "D. String 123Name;"},
+                {"A. Bjarne Stroustrup" , "B. Guido van Rossum" , "C. James Gosling" , "D. Dennis Ritchie"}};
+
+        int[] options={3,1,2,3};
+        int total=0;
+        int guess;
+        Scanner scanner=new Scanner(System.in);
+
+        for (int i=0;i< questions.length;i++){
+            System.out.println(questions[i]);
+
+            for (String answer:answers[i]){
+                System.out.println(answer);
+            }
+            System.out.print("Enter your Answer: ");
+            guess= scanner.nextInt();
+
+            if (guess==options[i]){
+                System.out.println("Correct Answer");
+                System.out.println("########################################################");
+                total++;
+            }
+            else {
+                System.out.println("Wrong Answer");
+                System.out.println("########################################################");
+            }
+        }
+        System.out.println("Your total score is "+total+" out of "+questions.length);
+    }
+}
