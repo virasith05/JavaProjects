@@ -5,10 +5,10 @@ public class Main {
 
         System.out.println("Hey,Hello Welcome to basic quiz game in Java");
         System.out.println("########################################################");
-        String[] questions={"1.Which of these is not a Java keyword?",
-        "2.What is the default value of an int variable in Java?",
-        "3.Which of the following is the correct way to declare a variable in Java?",
-        "4.Who is the founder of Java programming language?"};
+        String[] questions={"A.Which of these is not a Java keyword?",
+        "B.What is the default value of an int variable in Java?",
+        "C.Which of the following is the correct way to declare a variable in Java?",
+        "D.Who is the founder of Java programming language?"};
 
         String[][] answers={{"A.class", "B. interface", "C. main", "D. extends"},
                 {"A. 0", "B. null", "C. undefined", "D. Not assigned"},
