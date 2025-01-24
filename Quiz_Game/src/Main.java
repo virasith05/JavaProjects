@@ -10,7 +10,7 @@ public class Main {
         "C.Which of the following is the correct way to declare a variable in Java?",
         "D.Who is the founder of Java programming language?"};
 
-        String[][] answers={{"A.class", "B. interface", "C. main", "D. extends"},
+        String[][] answers={{"1.class", "2. interface", "3. main", "4. extends"},
                 {"A. 0", "B. null", "C. undefined", "D. Not assigned"},
                 {"A. int 1number;",  "B. float rate;", "C. boolean = true;" , "D. String 123Name;"},
                 {"A. Bjarne Stroustrup" , "B. Guido van Rossum" , "C. James Gosling" , "D. Dennis Ritchie"}};
