@@ -12,7 +12,7 @@ public class Main {
 
         String[][] answers={{"1.class", "2. interface", "3. main", "4. extends"},
                 {"1. 0", "2. null", "3. undefined", "4. Not assigned"},
-                {"1. int 1number;",  "B. float rate;", "C. boolean = true;" , "D. String 123Name;"},
+                {"1. int 1number;",  "2. float rate;", "3. boolean = true;" , "4. String 123Name;"},
                 {"1. Bjarne Stroustrup" , "B. Guido van Rossum" , "C. James Gosling" , "D. Dennis Ritchie"}};
 
         int[] options={3,1,2,3};
