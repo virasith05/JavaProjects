@@ -23,6 +23,7 @@ public class Main {
                 default -> System.out.println("Invalid input. Please enter 'yes' or 'no'.");
             }
         }
+        scanner.close();
     }
 
     static void playGame() {
